@@ -10,6 +10,7 @@
 </p>
 
 Prova de conceito de rede neural artificial para resolver problema clássico (XOR).
+
 Para executar a mesma, basta abrir o arquivo <b>html</b> em seu navegador padrão =)
 
 
