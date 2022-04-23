@@ -1,6 +1,6 @@
 ### 🤖 Rede Neural
 
-<p align='center'>
+<p align=''>
     <img src="image.png" >
 </p>
 
