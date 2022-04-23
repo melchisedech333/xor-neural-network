@@ -1,10 +1,10 @@
 ### 🤖 Rede Neural
 
-<p align=''>
-    <img src="image-network.png" >
+<p align='center'>
+    <img src="neural-network.svg" >
 </p>
 
-<p align="">
+<p align="center">
     <img src="https://img.shields.io/github/languages/count/melchisedech333/xor-neural-network?style=for-the-badge" >
     <img src="https://img.shields.io/github/repo-size/melchisedech333/xor-neural-network?style=for-the-badge" >
 </p>
