@@ -4,7 +4,7 @@
     <img src="image-network.png" >
 </p>
 
-<p align="center">
+<p align="">
     <img src="https://img.shields.io/github/languages/count/melchisedech333/xor-neural-network?style=for-the-badge" >
     <img src="https://img.shields.io/github/repo-size/melchisedech333/xor-neural-network?style=for-the-badge" >
 </p>
