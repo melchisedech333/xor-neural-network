@@ -88,11 +88,11 @@ class Network {
         // Camada, hidden -> output.
         for (var a=0; a<this.output.nodes.length; a++) {
             for (var b=0; b<this.hidden.nodes.length; b++) {
-                this.output.nodes[a].weight[b] += parseFloat( 
+                this.output.nodes[a].weight[b] += parseFloat(
                     this.learningRate *
                     this.output.nodes[a].error *
                     this.hidden.nodes[b].output *
-                    this.dsigmoid( this.output.nodes[a].output ) 
+                    this.dsigmoid( this.output.nodes[a].output )
                 );
             }
         }
