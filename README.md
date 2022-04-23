@@ -1,7 +1,7 @@
 ### 🤖 Rede Neural
 
 <p align='center'>
-    <img src="neural-network.svg" width='200px' >
+    <img src="neural-network.svg" width='350px' >
 </p>
 
 <p align="center">
