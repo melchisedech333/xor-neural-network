@@ -9,7 +9,7 @@
     <img src="https://img.shields.io/github/repo-size/melchisedech333/xor-neural-network?style=for-the-badge" >
 </p>
 
-Prova de conceito de rede neural artificial para resolver problema clássico (XOR).<br>
+Prova de conceito de rede neural artificial para resolver problema clássico (XOR).
 Para executar a mesma, basta abrir o arquivo <b>html</b> em seu navegador padrão =)
 
 Assim como na imagem acima, a rede conta com três camadas, sendo uma de entrada (para os padrões a serem analisados), uma camada oculta (para representar o deep learning, uma vez que pode contar N camadas ocultas), e uma camada de saída para a conclusão da resolução do problema.
