@@ -25,6 +25,7 @@ The first layer has two neurons (nodes) for the XOR input, five neurons in the h
 :smiley: Author
 ---
 
+Sponsor: [melchisedech333](https://github.com/sponsors/melchisedech333)<br>
 YouTube: [Melchisedech](https://www.youtube.com/channel/UC4Sh4wxncr5arnydpUfWPKw)<br>
 Twitter: [Melchisedech333](https://twitter.com/Melchisedech333)<br>
 Blog: [melchisedech333.github.io](https://melchisedech333.github.io/)<br>
