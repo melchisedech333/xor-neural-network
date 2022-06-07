@@ -1,8 +1,11 @@
-### 🤖 Rede Neural Artificial
+<div align='center'>
 
-<p align='center'>
-    <img src="neural-network.svg" width='400px' >
-</p>
+### Artificial Intelligence
+### Neural Network
+
+<img src="neural-network.svg" width='400px' >
+
+</div>
 
 <p align="center">
     <img src="https://img.shields.io/github/languages/count/melchisedech333/xor-neural-network?style=for-the-badge" >
