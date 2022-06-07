@@ -35,6 +35,6 @@ LinkedIn: [Melchisedech Rex](https://www.linkedin.com/in/melchisedech-rex-724152
 :scroll: License
 ---
 
-[ BSD-3-Clause license](./LICENSE.txt) © Verbum Paper
+[ BSD-3-Clause license](./LICENSE.txt)
 
 
