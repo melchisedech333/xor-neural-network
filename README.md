@@ -18,6 +18,8 @@ As in the image above, the network has three layers, an input layer (for the pat
 
 The first layer has two neurons (nodes) for the XOR input, five neurons in the hidden layer and one in the output layer, representing the approximation of the desired result.
 
+**If my code has helped you, please consider [sponsoring me](https://github.com/sponsors/melchisedech333) :blue_heart:** 
+
 <br>
 
 :smiley: Author
