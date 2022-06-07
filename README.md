@@ -11,11 +11,30 @@
     <img src="https://img.shields.io/github/repo-size/melchisedech333/xor-neural-network?style=for-the-badge" >
 </p>
 
-Prova de conceito de rede neural artificial para resolver problema clássico (XOR).
-Para executar a mesma, basta abrir o arquivo <b>html</b> em seu navegador padrão ;)
+Artificial neural network proof of concept to solve classical problem (XOR).
+To run, open the html file in your default browser ;)
 
-Assim como na imagem acima, a rede conta com três camadas, sendo uma de entrada (para os padrões a serem analisados), uma camada oculta (para representar o deep learning, uma vez que pode contar N camadas ocultas), e uma camada de saída para a conclusão da resolução do problema.
+As in the image above, the network has three layers, an input layer (for the patterns to be analyzed), a hidden layer (to represent deep learning), and an output layer for completion.
 
-A primeira camada possui dois neurônios (nodes) para a entrada <b>XOR</b>, cinco neurônios na camada oculta e um na camada de saída, representando a aproximação do resultado desejado.
+The first layer has two neurons (nodes) for the XOR input, five neurons in the hidden layer and one in the output layer, representing the approximation of the desired result.
+
+<br>
+
+:smiley: Author
+---
+
+YouTube: [Melchisedech](https://www.youtube.com/channel/UC4Sh4wxncr5arnydpUfWPKw)<br>
+Twitter: [Melchisedech333](https://twitter.com/Melchisedech333)<br>
+Blog: [melchisedech333.github.io](https://melchisedech333.github.io/)<br>
+LinkedIn: [Melchisedech Rex](https://www.linkedin.com/in/melchisedech-rex-724152235/)
+
+<img src="https://github.com/melchisedech333.png?size=200" height="100" />
+
+<br>
+
+:scroll: License
+---
+
+[ BSD-3-Clause license](./LICENSE.txt) © Verbum Paper
 
 
