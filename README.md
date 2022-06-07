@@ -1,7 +1,6 @@
 <div align='center'>
 
-### Artificial Intelligence
-### Neural Network
+### Artificial Intelligence <br> Neural Network
 
 <img src="neural-network.svg" width='400px' >
 
