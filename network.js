@@ -3,14 +3,14 @@ console.log("In principio erat Verbum!\n\n");
 
 class Network {
     constructor () {
-        this.learningRate = 0.1;        // Taxa de aprendizado.
-        this.limit  = 10000;            // Limite das iterações de aprendizado.
-        this.input  = new Layer(2, 0);  // Nodes por camada, e total de pesos por node.
+        this.learningRate = 0.1;        // Learning rate.
+        this.limit  = 10000;            // Limit of learning iterations.
+        this.input  = new Layer(2, 0);  // Nodes per layer, and total weights per node.
         this.hidden = new Layer(5, 2);
         this.output = new Layer(1, 5);
     }
 
-    // Ativação.
+    // Activation.
     sigmoid (x) {
         return 1 / (1 + Math.exp(-x));
     }
@@ -20,14 +20,14 @@ class Network {
         return x * (1-x); 
     }
     
-    // Realiza raciocínio - Feedforward.
+    // Perform reasoning - Feedforward.
     process (option1, option2) {
 
-        // Inicializa camada de entrada.
+        // Initializes input layer.
         this.input.nodes[0].output = option1;
         this.input.nodes[1].output = option2;
 
-        // Calcula saída, input -> hidden.
+        // Calculate output, input -> hidden.
         for (var a=0; a<this.hidden.nodes.length; a++) {
             var total = 0;
 
@@ -37,7 +37,7 @@ class Network {
             this.hidden.nodes[a].output = this.sigmoid(total);
         }
 
-        // Calcula saída, hidden -> output.
+        // Calculate output, hidden -> output.
         for (var a=0; a<this.output.nodes.length; a++) {
             var total = 0;
 
@@ -48,18 +48,18 @@ class Network {
         }
     }
 
-    // Realiza backpropagation.
+    // Performs back propagation.
     backPropagation (expectedValue) {
 
         //
-        // Calcula erros da rede.
+        // Calculates network errors.
         //
 
-        // Calcula erro da camada de saída.
+        // Calculates output layer error.
         for (var a=0; a<this.output.nodes.length; a++)
             this.output.nodes[a].error = expectedValue - this.output.nodes[a].output;
 
-        // Calcula erro da camada oculta.
+        // Calculates hidden layer error.
         for (var a=0; a<this.hidden.nodes.length; a++) {
             var total = 0;
 
@@ -70,10 +70,10 @@ class Network {
         }
 
         //
-        // Atualiza valores dos pesos (gradient).
+        // Update weight values (gradient).
         //
 
-        // Camada, input -> hidden.
+        // Layer, input -> hidden.
         for (var a=0; a<this.hidden.nodes.length; a++) {
             for (var b=0; b<this.input.nodes.length; b++) {
                 this.hidden.nodes[a].weight[b] += parseFloat( 
@@ -85,7 +85,7 @@ class Network {
             }
         }
         
-        // Camada, hidden -> output.
+        // Layer, hidden -> output.
         for (var a=0; a<this.output.nodes.length; a++) {
             for (var b=0; b<this.hidden.nodes.length; b++) {
                 this.output.nodes[a].weight[b] += parseFloat(
@@ -98,21 +98,21 @@ class Network {
         }
     }
 
-    // Realiza treinamento da rede.
+    // Conduct network training.
     train (dataset) {
         for (var n=0; n<this.limit; n++) {
             for (var a=0; a<dataset.input.length; a++) {
 
-                // Feedforward.
+                // Feed Forward.
                 this.process(dataset.input[a][0], dataset.input[a][1]);
 
-                // Backpropagation.
+                // Back Propagation.
                 this.backPropagation(dataset.output[a]);
             }
         }
     }
 
-    // Realiza previsão.
+    // Make prediction.
     predict (param) {
         this.process(param[0], param[1]);
 
@@ -135,13 +135,13 @@ class Node {
         this.error  = 0;
         this.output = 1;
 
-        // Inicializa pesos.
+        // Initialize weights.
         for (var a=0; a<totalWeights; a++)
             this.weight.push(Math.random() * 2 - 1);
     }
 }
 
-// Inicia rede e realiza treinamento.
+// Start network and perform training.
 var VerbumNetwork = new Network();
 
 var dataset = {
@@ -155,7 +155,7 @@ var dataset = {
 
 VerbumNetwork.train(dataset);
 
-// Realiza previsão.
+// Make prediction.
 for (var a=0; a<dataset.input.length; a++)
     VerbumNetwork.predict(dataset.input[a]);
 
