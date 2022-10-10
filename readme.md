@@ -11,6 +11,8 @@
     <img src="https://img.shields.io/github/repo-size/melchisedech333/xor-neural-network?style=for-the-badge" >
 </p>
 
+Language: <a href="readme-pt.md">PT-BR</a>
+
 Artificial neural network proof of concept to solve classical problem (XOR).
 To run, open the html file in your default browser ;)
 
@@ -38,6 +40,6 @@ LinkedIn: [Melchisedech Rex](https://www.linkedin.com/in/melchisedech-rex-724152
 :scroll: License
 ---
 
-[ BSD-3-Clause license](./LICENSE.txt)
+[ BSD-3-Clause license](./license)
 
 
