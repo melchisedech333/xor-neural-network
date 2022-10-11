@@ -7,8 +7,14 @@
 </div>
 
 <p align="center">
-    <img src="https://img.shields.io/github/languages/count/melchisedech333/xor-neural-network?style=for-the-badge" >
-    <img src="https://img.shields.io/github/repo-size/melchisedech333/xor-neural-network?style=for-the-badge" >
+    <a href="https://github.com/sponsors/melchisedech333"><img src="https://img.shields.io/badge/patrocinar-30363D?style=for-the-badge&logo=GitHub-Sponsors&logoColor=#white" ></a>
+    <br><br>
+    <img src="https://badgen.net/badge/nível de amor/7 de 10/purple" >
+    <img src="https://img.shields.io/github/languages/count/melchisedech333/xor-neural-network?color=%23f34b7d&label=linguagens" >
+    <img src="https://img.shields.io/github/languages/top/melchisedech333/xor-neural-network?color=%23f34b7d" >
+    <img src="https://img.shields.io/github/directory-file-count/melchisedech333/xor-neural-network?label=arquivos" >
+    <img src="https://img.shields.io/github/repo-size/melchisedech333/xor-neural-network?label=tamanho repo" >
+    <img src="https://img.shields.io/github/license/melchisedech333/xor-neural-network?label=licen%C3%A7a" >
 </p>
 
 Language: <a href="readme.md">EN-US</a>
