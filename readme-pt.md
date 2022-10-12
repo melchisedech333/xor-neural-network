@@ -1,10 +1,11 @@
+
 <div align='center'>
 
-### Inteligência Artificial <br> Rede Neural
-
-<img src="neural-network.svg" width='400px' >
+<img src="images/banner.jpg" >
 
 </div>
+
+<br>
 
 <p align="center">
     <a href="https://github.com/sponsors/melchisedech333"><img src="https://img.shields.io/badge/patrocinar-30363D?style=for-the-badge&logo=GitHub-Sponsors&logoColor=#white" ></a>
@@ -19,11 +20,13 @@
 
 Language: <a href="readme.md">EN-US</a>
 
+<img align="left" src="images/neural-network.svg" width='300px' >
+
 Prova de conceito de rede neural artificial para resolver o problema clássico (XOR).
 
 Para executar, abra o arquivo html em seu navegador padrão ;)
 
-Como na imagem acima, a rede neural possui 3 camadas, uma camada de entrada (para os padrões a serem analisados), uma camada oculta (para representar o aprendizado profundo) e uma camada de saída para conclusão.
+Como na imagem ao lado, a rede neural possui 3 camadas, uma camada de entrada (para os padrões a serem analisados), uma camada oculta (para representar o aprendizado profundo) e uma camada de saída para conclusão.
 
 A primeira camada possui 2 neurônios (nodes) para a entrada XOR, a segunda camada possui 5 neurônios (esta é a camada oculta), finalizando com 1 neurônio na camada de saída, representando a aproximação do resultado desejado.
 
