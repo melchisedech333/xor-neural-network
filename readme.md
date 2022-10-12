@@ -1,10 +1,10 @@
 <div align='center'>
 
-### Artificial Intelligence <br> Neural Network
-
-<img src="neural-network.svg" width='400px' >
+<img src="images/banner.jpg" >
 
 </div>
+
+<br>
 
 <p align="center">
     <a href="https://github.com/sponsors/melchisedech333"><img src="https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&logo=GitHub-Sponsors&logoColor=#white" ></a>
@@ -19,10 +19,12 @@
 
 Language: <a href="readme-pt.md">PT-BR</a>
 
+<img align="left" src="images/neural-network.svg" width='300px' >
+
 Artificial neural network proof of concept to solve classical problem (XOR).
 To run, open the html file in your default browser ;)
 
-As in the image above, the network has three layers, an input layer (for the patterns to be analyzed), a hidden layer (to represent deep learning), and an output layer for completion.
+As in the image on the side, the network has three layers, an input layer (for the patterns to be analyzed), a hidden layer (to represent deep learning), and an output layer for completion.
 
 The first layer has two neurons (nodes) for the XOR input, five neurons in the hidden layer and one in the output layer, representing the approximation of the desired result.
 
