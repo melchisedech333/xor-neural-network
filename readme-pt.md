@@ -38,12 +38,11 @@ A primeira camada possui 2 neurônios (nodes) para a entrada XOR, a segunda cama
 ---
 
 Patrocinar: [melchisedech333](https://github.com/sponsors/melchisedech333)<br>
-YouTube: [Melchisedech](https://www.youtube.com/channel/UC4Sh4wxncr5arnydpUfWPKw)<br>
 Twitter: [Melchisedech333](https://twitter.com/Melchisedech333)<br>
+LinkedIn: [Melchisedech Rex](https://www.linkedin.com/in/melchisedech-rex-724152235/)<br>
 Blog: [melchisedech333.github.io](https://melchisedech333.github.io/)<br>
-LinkedIn: [Melchisedech Rex](https://www.linkedin.com/in/melchisedech-rex-724152235/)
 
-<img src="https://github.com/melchisedech333.png?size=200" height="100" />
+<a href="https://github.com/melchisedech333" ><img src="https://github.com/melchisedech333.png?size=200" height="100" /></a>
 
 <br>
 
